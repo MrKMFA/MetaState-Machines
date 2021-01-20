@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.Admin.EntityFramework.Shared.Constants
+﻿namespace MetaState.IdentityServer4.Admin.EntityFramework.Shared.Constants
 {
     public static class TableConsts
     {

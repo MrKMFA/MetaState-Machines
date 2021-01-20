@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Shared.DbContexts;
+using MetaState.IdentityServer4.Admin.EntityFramework.Shared.DbContexts;
 
-namespace Skoruba.IdentityServer4.Admin.EntityFramework.SqlServer.Migrations.Identity
+namespace MetaState.IdentityServer4.Admin.EntityFramework.SqlServer.Migrations.Identity
 {
     [DbContext(typeof(AdminIdentityDbContext))]
     partial class AdminIdentityDbContextModelSnapshot : ModelSnapshot

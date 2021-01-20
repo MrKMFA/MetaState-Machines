@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Skoruba.IdentityServer4.Admin.EntityFramework.Extensions.Extensions
+namespace MetaState.IdentityServer4.Admin.EntityFramework.Extensions.Extensions
 {
     public static class EnumerableExtensions
     {
