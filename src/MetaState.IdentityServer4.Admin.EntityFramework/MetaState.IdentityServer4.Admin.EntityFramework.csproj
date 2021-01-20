@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Kenneth Arnesen</Authors>
+    <Company>MetaState Machines</Company>
+    <PackageProjectUrl>https://github.com/MrKMFA/MetaState-Machines</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>
