@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using IdentityServer4.EntityFramework.Entities;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Extensions.Common;
+using MetaState.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration;
+using MetaState.IdentityServer4.Admin.EntityFramework.Extensions.Common;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Mappers
+namespace MetaState.IdentityServer4.Admin.BusinessLogic.Mappers
 {
     public static class ApiResourceMappers
     {

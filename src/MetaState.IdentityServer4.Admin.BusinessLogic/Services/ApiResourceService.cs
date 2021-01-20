@@ -2,17 +2,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using IdentityServer4.Models;
 using Skoruba.AuditLogging.Services;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Events.ApiResource;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Helpers;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Mappers;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Resources;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Services.Interfaces;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.ExceptionHandling;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Helpers;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Repositories.Interfaces;
+using MetaState.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration;
+using MetaState.IdentityServer4.Admin.BusinessLogic.Events.ApiResource;
+using MetaState.IdentityServer4.Admin.BusinessLogic.Helpers;
+using MetaState.IdentityServer4.Admin.BusinessLogic.Mappers;
+using MetaState.IdentityServer4.Admin.BusinessLogic.Resources;
+using MetaState.IdentityServer4.Admin.BusinessLogic.Services.Interfaces;
+using MetaState.IdentityServer4.Admin.BusinessLogic.Shared.ExceptionHandling;
+using MetaState.IdentityServer4.Admin.EntityFramework.Helpers;
+using MetaState.IdentityServer4.Admin.EntityFramework.Repositories.Interfaces;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Services
+namespace MetaState.IdentityServer4.Admin.BusinessLogic.Services
 {
     public class ApiResourceService : IApiResourceService
     {

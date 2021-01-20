@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Dtos.Grant;
+using MetaState.IdentityServer4.Admin.BusinessLogic.Dtos.Grant;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Services.Interfaces
+namespace MetaState.IdentityServer4.Admin.BusinessLogic.Services.Interfaces
 {
     public interface IPersistedGrantService
     {

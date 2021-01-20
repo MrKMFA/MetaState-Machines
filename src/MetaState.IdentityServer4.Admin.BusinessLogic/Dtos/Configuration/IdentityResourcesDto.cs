@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration
+namespace MetaState.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration
 {
 	public class IdentityResourcesDto
 	{

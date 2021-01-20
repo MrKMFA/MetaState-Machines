@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Helpers
+namespace MetaState.IdentityServer4.Admin.BusinessLogic.Helpers
 {
     public static class QueryableExtensions
     {
