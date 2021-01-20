@@ -3,14 +3,14 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Entities;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Extensions.Common;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Extensions.Enums;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Extensions.Extensions;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Interfaces;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Repositories.Interfaces;
+using MetaState.IdentityServer4.Admin.EntityFramework.Entities;
+using MetaState.IdentityServer4.Admin.EntityFramework.Extensions.Common;
+using MetaState.IdentityServer4.Admin.EntityFramework.Extensions.Enums;
+using MetaState.IdentityServer4.Admin.EntityFramework.Extensions.Extensions;
+using MetaState.IdentityServer4.Admin.EntityFramework.Interfaces;
+using MetaState.IdentityServer4.Admin.EntityFramework.Repositories.Interfaces;
 
-namespace Skoruba.IdentityServer4.Admin.EntityFramework.Repositories
+namespace MetaState.IdentityServer4.Admin.EntityFramework.Repositories
 {
     public class LogRepository<TDbContext> : ILogRepository
         where TDbContext : DbContext, IAdminLogDbContext
