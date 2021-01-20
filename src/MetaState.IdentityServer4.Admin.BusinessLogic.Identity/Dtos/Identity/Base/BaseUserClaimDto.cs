@@ -1,6 +1,6 @@
-﻿using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity.Interfaces;
+﻿using MetaState.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity.Interfaces;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity.Base
+namespace MetaState.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity.Base
 {
     public class BaseUserClaimDto<TUserId> : IBaseUserClaimDto
     {

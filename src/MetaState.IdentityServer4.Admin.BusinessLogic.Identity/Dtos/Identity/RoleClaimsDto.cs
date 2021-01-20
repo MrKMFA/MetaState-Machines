@@ -1,8 +1,8 @@
-﻿using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity.Interfaces;
+﻿using MetaState.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity
+namespace MetaState.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity
 {
     public class RoleClaimsDto<TRoleClaimDto, TKey> : RoleClaimDto<TKey>, IRoleClaimsDto
         where TRoleClaimDto : RoleClaimDto<TKey>
