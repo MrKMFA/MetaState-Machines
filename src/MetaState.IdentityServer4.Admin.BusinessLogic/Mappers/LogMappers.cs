@@ -3,8 +3,9 @@ using Skoruba.AuditLogging.EntityFramework.Entities;
 using MetaState.IdentityServer4.Admin.BusinessLogic.Dtos.Log;
 using MetaState.IdentityServer4.Admin.EntityFramework.Entities;
 using MetaState.IdentityServer4.Admin.EntityFramework.Extensions.Common;
+using MetaState.IdentityServer4.Admin.BusinessLogic.Mappers;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Mappers
+namespace MetaState.IdentityServer4.Admin.BusinessLogic.Mappers
 {
     public static class LogMappers
     {

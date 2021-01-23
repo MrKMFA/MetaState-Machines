@@ -2,6 +2,7 @@
 // https://github.com/IdentityServer/IdentityServer4.EntityFramework
 
 // Modified by Jan Škoruba
+// Modified by Kenneth Arnesen
 
 using System.Linq;
 using AutoMapper;
@@ -9,7 +10,7 @@ using IdentityServer4.EntityFramework.Entities;
 using MetaState.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration;
 using MetaState.IdentityServer4.Admin.EntityFramework.Extensions.Common;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Mappers
+namespace MetaState.IdentityServer4.Admin.BusinessLogic.Mappers
 {
     public class IdentityResourceMapperProfile : Profile
     {

@@ -1,5 +1,5 @@
 ﻿using System;
-using MetaState.AuditLogging.Events;
+using Skoruba.AuditLogging.Events;
 
 namespace MetaState.IdentityServer4.Admin.BusinessLogic.Events.Client
 {

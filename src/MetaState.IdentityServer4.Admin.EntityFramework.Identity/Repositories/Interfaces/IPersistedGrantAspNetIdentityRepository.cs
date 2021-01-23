@@ -3,7 +3,7 @@ using IdentityServer4.EntityFramework.Entities;
 using MetaState.IdentityServer4.Admin.EntityFramework.Entities;
 using MetaState.IdentityServer4.Admin.EntityFramework.Extensions.Common;
 
-namespace Skoruba.IdentityServer4.Admin.EntityFramework.Identity.Repositories.Interfaces
+namespace MetaState.IdentityServer4.Admin.EntityFramework.Identity.Repositories.Interfaces
 {
 	public interface IPersistedGrantAspNetIdentityRepository
     {
