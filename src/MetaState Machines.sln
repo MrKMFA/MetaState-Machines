@@ -5,23 +5,21 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaState.IdentityServer4.Admin.BusinessLogic.Shared", "MetaState.IdentityServer4.Admin.BusinessLogic.Shared\MetaState.IdentityServer4.Admin.BusinessLogic.Shared.csproj", "{5ED6A499-F715-4940-BD78-7B22E0E40EE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaState.IdentityServer4.Admin.BusinessLogic", "MetaState.IdentityServer4.Admin.BusinessLogic\MetaState.IdentityServer4.Admin.BusinessLogic.csproj", "{BD8275C2-A73D-4E70-B2EE-3DC78284C289}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaState.IdentityServer4.Admin.BusinessLogic", "MetaState.IdentityServer4.Admin.BusinessLogic\MetaState.IdentityServer4.Admin.BusinessLogic.csproj", "{BD8275C2-A73D-4E70-B2EE-3DC78284C289}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaState.IdentityServer4.Admin.BusinessLogic.Identity", "MetaState.IdentityServer4.Admin.BusinessLogic.Identity\MetaState.IdentityServer4.Admin.BusinessLogic.Identity.csproj", "{549FFB29-8ABB-4D95-ABBA-D48E0058B9C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaState.IdentityServer4.Admin.BusinessLogic.Identity", "MetaState.IdentityServer4.Admin.BusinessLogic.Identity\MetaState.IdentityServer4.Admin.BusinessLogic.Identity.csproj", "{549FFB29-8ABB-4D95-ABBA-D48E0058B9C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaState.IdentityServer4.Shared", "MetaState.IdentityServer4.Shared\MetaState.IdentityServer4.Shared.csproj", "{4741DF63-E872-4DCD-B93A-FE5CD24DC388}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaState.IdentityServer4.Shared", "MetaState.IdentityServer4.Shared\MetaState.IdentityServer4.Shared.csproj", "{4741DF63-E872-4DCD-B93A-FE5CD24DC388}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{DD2DE737-3966-4269-83DC-83C3A65F8343}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaState.IdentityServer4.Admin.EntityFramework", "MetaState.IdentityServer4.Admin.EntityFramework\MetaState.IdentityServer4.Admin.EntityFramework.csproj", "{8837EB8E-3EF1-4042-971A-74FC34D28CCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaState.IdentityServer4.Admin.EntityFramework", "MetaState.IdentityServer4.Admin.EntityFramework\MetaState.IdentityServer4.Admin.EntityFramework.csproj", "{8837EB8E-3EF1-4042-971A-74FC34D28CCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaState.IdentityServer4.Admin.EntityFramework.Extensions", "MetaState.IdentityServer4.Admin.EntityFramework.Extensions\MetaState.IdentityServer4.Admin.EntityFramework.Extensions.csproj", "{28BFEE27-F1AF-4C76-BD94-FF2E2309AC5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaState.IdentityServer4.Admin.EntityFramework.Extensions", "MetaState.IdentityServer4.Admin.EntityFramework.Extensions\MetaState.IdentityServer4.Admin.EntityFramework.Extensions.csproj", "{28BFEE27-F1AF-4C76-BD94-FF2E2309AC5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaState.IdentityServer4.Admin.EntityFramework.Identity", "MetaState.IdentityServer4.Admin.EntityFramework.Identity\MetaState.IdentityServer4.Admin.EntityFramework.Identity.csproj", "{B38F0D6C-B976-4B68-9647-654A154F70D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaState.IdentityServer4.Admin.EntityFramework.Identity", "MetaState.IdentityServer4.Admin.EntityFramework.Identity\MetaState.IdentityServer4.Admin.EntityFramework.Identity.csproj", "{B38F0D6C-B976-4B68-9647-654A154F70D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaState.IdentityServer4.Admin.EntityFramework.Shared", "MetaState.IdentityServer4.Admin.EntityFramework.Shared\MetaState.IdentityServer4.Admin.EntityFramework.Shared.csproj", "{40BD6A45-83B8-4E45-A662-59062D1CDDBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaState.IdentityServer4.Admin.EntityFramework.Shared", "MetaState.IdentityServer4.Admin.EntityFramework.Shared\MetaState.IdentityServer4.Admin.EntityFramework.Shared.csproj", "{40BD6A45-83B8-4E45-A662-59062D1CDDBB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaState.IdentityServer4.Admin.EntityFramework.SqlServer", "MetaState.IdentityServer4.Admin.EntityFramework.SqlServer\MetaState.IdentityServer4.Admin.EntityFramework.SqlServer.csproj", "{5599CF0B-D294-496A-A67F-FB281DF68A46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaState.IdentityServer4.Admin.EntityFramework.SqlServer", "MetaState.IdentityServer4.Admin.EntityFramework.SqlServer\MetaState.IdentityServer4.Admin.EntityFramework.SqlServer.csproj", "{5599CF0B-D294-496A-A67F-FB281DF68A46}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skoruba.AuditLogging", "..\..\..\Samples\IdentityServer4.Admin-master\IdentityServer4.Admin-master\src\Skoruba.AuditLogging\Skoruba.AuditLogging.csproj", "{FFFE3AFA-0944-4AE5-9965-8458BF9AF770}"
 EndProject
@@ -90,11 +88,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{8837EB8E-3EF1-4042-971A-74FC34D28CCE} = {DD2DE737-3966-4269-83DC-83C3A65F8343}
-		{28BFEE27-F1AF-4C76-BD94-FF2E2309AC5B} = {DD2DE737-3966-4269-83DC-83C3A65F8343}
-		{B38F0D6C-B976-4B68-9647-654A154F70D2} = {DD2DE737-3966-4269-83DC-83C3A65F8343}
-		{40BD6A45-83B8-4E45-A662-59062D1CDDBB} = {DD2DE737-3966-4269-83DC-83C3A65F8343}
-		{5599CF0B-D294-496A-A67F-FB281DF68A46} = {DD2DE737-3966-4269-83DC-83C3A65F8343}
 		{FFFE3AFA-0944-4AE5-9965-8458BF9AF770} = {C3342437-8B44-4A30-A041-DC6E3538A84F}
 		{9DA51703-3E25-416B-9B49-0FC3DE1BF127} = {C3342437-8B44-4A30-A041-DC6E3538A84F}
 		{F6DFB127-E446-4A31-A71E-3A0E61DFEA3B} = {C3342437-8B44-4A30-A041-DC6E3538A84F}

@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.Shared.Configuration.Common
+﻿namespace MetaState.IdentityServer4.Shared.Configuration.Common
 {
     public class CertificateConfiguration
     {

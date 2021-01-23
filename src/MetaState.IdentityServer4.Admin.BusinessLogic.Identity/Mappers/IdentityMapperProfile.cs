@@ -2,16 +2,17 @@
 // https://github.com/IdentityServer/IdentityServer4.EntityFramework
 
 // Modified by Jan Škoruba
+// Modified by Kenneth Arnesen
 
 using System;
 using System.Collections.Generic;
 using AutoMapper;
 using Microsoft.AspNetCore.Identity;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
-using Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.ExceptionHandling;
-using Skoruba.IdentityServer4.Admin.EntityFramework.Extensions.Common;
+using MetaState.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
+using MetaState.IdentityServer4.Admin.BusinessLogic.Shared.ExceptionHandling;
+using MetaState.IdentityServer4.Admin.EntityFramework.Extensions.Common;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Mappers
+namespace MetaState.IdentityServer4.Admin.BusinessLogic.Identity.Mappers
 {
     public class IdentityMapperProfile<TUserDto, TRoleDto, TUser, TRole, TKey, TUserClaim, TUserRole,
         TUserLogin, TRoleClaim, TUserToken,

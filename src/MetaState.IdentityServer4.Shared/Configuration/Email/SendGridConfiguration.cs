@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.Shared.Configuration.Email
+﻿namespace MetaState.IdentityServer4.Shared.Configuration.Email
 {
     public class SendGridConfiguration
     {

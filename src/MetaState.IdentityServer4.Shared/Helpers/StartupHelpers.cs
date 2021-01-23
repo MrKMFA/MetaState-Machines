@@ -8,11 +8,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.AzureKeyVault;
 using Microsoft.Extensions.DependencyInjection;
 using SendGrid;
-using Skoruba.IdentityServer4.Shared.Configuration.Common;
-using Skoruba.IdentityServer4.Shared.Configuration.Email;
-using Skoruba.IdentityServer4.Shared.Email;
+using MetaState.IdentityServer4.Shared.Configuration.Common;
+using MetaState.IdentityServer4.Shared.Configuration.Email;
+using MetaState.IdentityServer4.Shared.Email;
 
-namespace Skoruba.IdentityServer4.Shared.Helpers
+namespace MetaState.IdentityServer4.Shared.Helpers
 {
     public static class StartupHelpers
     {
@@ -50,7 +50,7 @@ namespace Skoruba.IdentityServer4.Shared.Helpers
             var azureKeyVaultConfiguration = configuration.GetSection(nameof(AzureKeyVaultConfiguration)).Get<AzureKeyVaultConfiguration>();
 
             var dataProtectionBuilder = services.AddDataProtection()
-                .SetApplicationName("Skoruba.IdentityServer4")
+                .SetApplicationName("MetaState.IdentityServer4")
                 .PersistKeysToDbContext<TDbContext>();
 
             if (dataProtectionConfiguration.ProtectKeysWithAzureKeyVault)

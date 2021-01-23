@@ -2,6 +2,7 @@
 // https://github.com/IdentityServer/IdentityServer4.EntityFramework
 
 // Modified by Jan Škoruba
+// Modified by Kenneth Arnesen
 
 using System.Linq;
 using AutoMapper;

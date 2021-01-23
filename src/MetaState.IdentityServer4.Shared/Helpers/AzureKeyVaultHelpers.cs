@@ -1,12 +1,13 @@
 ﻿// Original file comes from: https://github.com/damienbod/IdentityServer4AspNetCoreIdentityTemplate
 // Modified by Jan Škoruba
+// Modified By Kenneth Arnesen
 
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
-using Skoruba.IdentityServer4.Shared.Configuration.Common;
-using Skoruba.IdentityServer4.Shared.Services;
+using MetaState.IdentityServer4.Shared.Configuration.Common;
+using MetaState.IdentityServer4.Shared.Services;
 
-namespace Skoruba.IdentityServer4.Shared.Helpers
+namespace MetaState.IdentityServer4.Shared.Helpers
 {
     public class AzureKeyVaultHelpers
     {

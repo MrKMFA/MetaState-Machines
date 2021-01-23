@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.IO;
 
-namespace Skoruba.IdentityServer4.Shared.Helpers
+namespace MetaState.IdentityServer4.Shared.Helpers
 {
     public static class ShellHelpers
     {

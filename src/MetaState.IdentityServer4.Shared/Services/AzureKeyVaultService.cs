@@ -1,5 +1,6 @@
 ﻿// Original file comes from: https://github.com/damienbod/IdentityServer4AspNetCoreIdentityTemplate
 // Modified by Jan Škoruba
+// Modified by Kenneth Arnesen
 
 using System;
 using System.Collections.Generic;
@@ -10,9 +11,9 @@ using Microsoft.Azure.KeyVault;
 using Microsoft.Azure.KeyVault.Models;
 using Microsoft.Azure.Services.AppAuthentication;
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
-using Skoruba.IdentityServer4.Shared.Configuration.Common;
+using MetaState.IdentityServer4.Shared.Configuration.Common;
 
-namespace Skoruba.IdentityServer4.Shared.Services
+namespace MetaState.IdentityServer4.Shared.Services
 {
     public class AzureKeyVaultService
     {

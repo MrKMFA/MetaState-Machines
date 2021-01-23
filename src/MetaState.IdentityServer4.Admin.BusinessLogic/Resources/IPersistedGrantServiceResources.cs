@@ -1,6 +1,6 @@
-﻿using Skoruba.IdentityServer4.Admin.BusinessLogic.Helpers;
+﻿using MetaState.IdentityServer4.Admin.BusinessLogic.Helpers;
 
-namespace Skoruba.IdentityServer4.Admin.BusinessLogic.Resources
+namespace MetaState.IdentityServer4.Admin.BusinessLogic.Resources
 {
     public interface IPersistedGrantServiceResources
     {

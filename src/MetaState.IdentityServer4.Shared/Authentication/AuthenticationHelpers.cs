@@ -1,10 +1,12 @@
 ﻿// This code comes from: https://github.com/damienbod/IdentityServer4AspNetCoreIdentityTemplate/blob/master/content/StsServerIdentity/Startup.cs
 // Original post: https://devblogs.microsoft.com/aspnet/upcoming-samesite-cookie-changes-in-asp-net-and-asp-net-core/
+
 // Modified by Jan Škoruba
+// Modified by Kenneth Arnesen
 
 using Microsoft.AspNetCore.Http;
 
-namespace Skoruba.IdentityServer4.Shared.Authentication
+namespace MetaState.IdentityServer4.Shared.Authentication
 {
     public static class AuthenticationHelpers
     {
