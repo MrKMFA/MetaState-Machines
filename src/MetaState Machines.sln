@@ -29,6 +29,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skoruba.AuditLogging.Entity
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skoruba.AuditLogging.Host", "..\..\..\Samples\IdentityServer4.Admin-master\IdentityServer4.Admin-master\src\Skoruba.AuditLogging.Host\Skoruba.AuditLogging.Host.csproj", "{F6DFB127-E446-4A31-A71E-3A0E61DFEA3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaState.IdentityServer4.STS.Identity", "MetaState.IdentityServer4.STS.Identity\MetaState.IdentityServer4.STS.Identity.csproj", "{200E437B-203F-472E-B062-E51BE875DE79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaState.IdentityServer4.Admin.Api", "MetaState.IdentityServer4.Admin.Api\MetaState.IdentityServer4.Admin.Api.csproj", "{46E7B492-8B43-48C2-9649-EED862ED7D69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaState.IdentityServer4.Admin", "MetaState.IdentityServer4.Admin\MetaState.IdentityServer4.Admin.csproj", "{08EC18F8-5E4A-4D50-8352-97B6703E395D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +89,18 @@ Global
 		{F6DFB127-E446-4A31-A71E-3A0E61DFEA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6DFB127-E446-4A31-A71E-3A0E61DFEA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6DFB127-E446-4A31-A71E-3A0E61DFEA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200E437B-203F-472E-B062-E51BE875DE79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200E437B-203F-472E-B062-E51BE875DE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200E437B-203F-472E-B062-E51BE875DE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200E437B-203F-472E-B062-E51BE875DE79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E7B492-8B43-48C2-9649-EED862ED7D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E7B492-8B43-48C2-9649-EED862ED7D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E7B492-8B43-48C2-9649-EED862ED7D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E7B492-8B43-48C2-9649-EED862ED7D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08EC18F8-5E4A-4D50-8352-97B6703E395D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EC18F8-5E4A-4D50-8352-97B6703E395D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EC18F8-5E4A-4D50-8352-97B6703E395D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EC18F8-5E4A-4D50-8352-97B6703E395D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
