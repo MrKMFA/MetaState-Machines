@@ -9,7 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Samples\IdentityServer4.Admin-master\IdentityServer4.Admin-master\src\Skoruba.AuditLogging.EntityFramework\Skoruba.AuditLogging.EntityFramework.csproj" />
     <ProjectReference Include="..\MetaState.IdentityServer4.Admin.EntityFramework.Identity\MetaState.IdentityServer4.Admin.EntityFramework.Identity.csproj" />
     <ProjectReference Include="..\MetaState.IdentityServer4.Admin.EntityFramework\MetaState.IdentityServer4.Admin.EntityFramework.csproj" />
   </ItemGroup>

@@ -2,12 +2,12 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Skoruba.AuditLogging.EntityFramework.DbContexts;
-using Skoruba.AuditLogging.EntityFramework.Entities;
 using MetaState.IdentityServer4.Admin.EntityFramework.Extensions.Common;
 using MetaState.IdentityServer4.Admin.EntityFramework.Extensions.Enums;
 using MetaState.IdentityServer4.Admin.EntityFramework.Extensions.Extensions;
 using MetaState.IdentityServer4.Admin.EntityFramework.Repositories.Interfaces;
+using Skoruba.AuditLogging.EntityFramework.DbContexts;
+using Skoruba.AuditLogging.EntityFramework.Entities;
 
 namespace MetaState.IdentityServer4.Admin.EntityFramework.Repositories
 {

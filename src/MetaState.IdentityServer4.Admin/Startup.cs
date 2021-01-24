@@ -21,7 +21,7 @@ using MetaState.IdentityServer4.Shared.Dtos;
 using MetaState.IdentityServer4.Shared.Dtos.Identity;
 using MetaState.IdentityServer4.Shared.Helpers;
 
-namespace Skoruba.IdentityServer4.Admin
+namespace MetaState.IdentityServer4.Admin
 {
     public class Startup
     {

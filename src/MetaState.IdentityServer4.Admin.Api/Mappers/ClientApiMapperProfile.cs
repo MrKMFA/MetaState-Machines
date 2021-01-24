@@ -2,7 +2,7 @@
 using MetaState.IdentityServer4.Admin.Api.Dtos.Clients;
 using MetaState.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration;
 
-namespace Skoruba.IdentityServer4.Admin.Api.Mappers
+namespace MetaState.IdentityServer4.Admin.Api.Mappers
 {
     public class ClientApiMapperProfile : Profile
     {

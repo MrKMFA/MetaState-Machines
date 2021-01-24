@@ -21,19 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaState.IdentityServer4.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaState.IdentityServer4.Admin.EntityFramework.SqlServer", "MetaState.IdentityServer4.Admin.EntityFramework.SqlServer\MetaState.IdentityServer4.Admin.EntityFramework.SqlServer.csproj", "{5599CF0B-D294-496A-A67F-FB281DF68A46}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skoruba.AuditLogging", "..\..\..\Samples\IdentityServer4.Admin-master\IdentityServer4.Admin-master\src\Skoruba.AuditLogging\Skoruba.AuditLogging.csproj", "{FFFE3AFA-0944-4AE5-9965-8458BF9AF770}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaState.IdentityServer4.STS.Identity", "MetaState.IdentityServer4.STS.Identity\MetaState.IdentityServer4.STS.Identity.csproj", "{200E437B-203F-472E-B062-E51BE875DE79}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rd Party", "3rd Party", "{C3342437-8B44-4A30-A041-DC6E3538A84F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaState.IdentityServer4.Admin.Api", "MetaState.IdentityServer4.Admin.Api\MetaState.IdentityServer4.Admin.Api.csproj", "{46E7B492-8B43-48C2-9649-EED862ED7D69}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skoruba.AuditLogging.EntityFramework", "..\..\..\Samples\IdentityServer4.Admin-master\IdentityServer4.Admin-master\src\Skoruba.AuditLogging.EntityFramework\Skoruba.AuditLogging.EntityFramework.csproj", "{9DA51703-3E25-416B-9B49-0FC3DE1BF127}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skoruba.AuditLogging.Host", "..\..\..\Samples\IdentityServer4.Admin-master\IdentityServer4.Admin-master\src\Skoruba.AuditLogging.Host\Skoruba.AuditLogging.Host.csproj", "{F6DFB127-E446-4A31-A71E-3A0E61DFEA3B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaState.IdentityServer4.STS.Identity", "MetaState.IdentityServer4.STS.Identity\MetaState.IdentityServer4.STS.Identity.csproj", "{200E437B-203F-472E-B062-E51BE875DE79}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaState.IdentityServer4.Admin.Api", "MetaState.IdentityServer4.Admin.Api\MetaState.IdentityServer4.Admin.Api.csproj", "{46E7B492-8B43-48C2-9649-EED862ED7D69}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaState.IdentityServer4.Admin", "MetaState.IdentityServer4.Admin\MetaState.IdentityServer4.Admin.csproj", "{08EC18F8-5E4A-4D50-8352-97B6703E395D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaState.IdentityServer4.Admin", "MetaState.IdentityServer4.Admin\MetaState.IdentityServer4.Admin.csproj", "{08EC18F8-5E4A-4D50-8352-97B6703E395D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,18 +69,6 @@ Global
 		{5599CF0B-D294-496A-A67F-FB281DF68A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5599CF0B-D294-496A-A67F-FB281DF68A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5599CF0B-D294-496A-A67F-FB281DF68A46}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FFFE3AFA-0944-4AE5-9965-8458BF9AF770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FFFE3AFA-0944-4AE5-9965-8458BF9AF770}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FFFE3AFA-0944-4AE5-9965-8458BF9AF770}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FFFE3AFA-0944-4AE5-9965-8458BF9AF770}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9DA51703-3E25-416B-9B49-0FC3DE1BF127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9DA51703-3E25-416B-9B49-0FC3DE1BF127}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9DA51703-3E25-416B-9B49-0FC3DE1BF127}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9DA51703-3E25-416B-9B49-0FC3DE1BF127}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6DFB127-E446-4A31-A71E-3A0E61DFEA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6DFB127-E446-4A31-A71E-3A0E61DFEA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6DFB127-E446-4A31-A71E-3A0E61DFEA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6DFB127-E446-4A31-A71E-3A0E61DFEA3B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{200E437B-203F-472E-B062-E51BE875DE79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{200E437B-203F-472E-B062-E51BE875DE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{200E437B-203F-472E-B062-E51BE875DE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -104,11 +84,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{FFFE3AFA-0944-4AE5-9965-8458BF9AF770} = {C3342437-8B44-4A30-A041-DC6E3538A84F}
-		{9DA51703-3E25-416B-9B49-0FC3DE1BF127} = {C3342437-8B44-4A30-A041-DC6E3538A84F}
-		{F6DFB127-E446-4A31-A71E-3A0E61DFEA3B} = {C3342437-8B44-4A30-A041-DC6E3538A84F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8B29B74D-939B-4334-B7A7-B1927CF81213}

@@ -29,7 +29,7 @@ namespace MetaState.IdentityServer4.Admin.Api.Dtos.Clients
                     return result;
                 }
 
-                return Skoruba.IdentityServer4.Admin.EntityFramework.Helpers.HashType.Sha256;
+                return MetaState.IdentityServer4.Admin.EntityFramework.Helpers.HashType.Sha256;
             }
         }
 
