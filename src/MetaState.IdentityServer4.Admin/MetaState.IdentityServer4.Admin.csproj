@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>8fe260ca-ef4c-4fa3-9364-029146f8d339</UserSecretsId>
+    <Authors>Kenneth Arnesen</Authors>
+    <Company>MetaState Machines</Company>
   </PropertyGroup>
 
   <ItemGroup>
