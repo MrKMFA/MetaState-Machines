@@ -36,7 +36,7 @@ namespace MetaState.IdentityServer4.Admin.BusinessLogic.Identity.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Resources.PersistedGrantServiceResource", typeof(PersistedGrantServiceResource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MetaState.IdentityServer4.Admin.BusinessLogic.Identity.Resources.PersistedGrantServiceResource", typeof(PersistedGrantServiceResource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
